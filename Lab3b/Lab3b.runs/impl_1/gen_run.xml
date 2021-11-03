@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1631205291">
+  <File Type="ROUTE-PWR" Name="hextcounterdisplay_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="hextcounterdisplay.tcl"/>
+  <File Type="BITSTR-MMI" Name="hextcounterdisplay.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="hextcounterdisplay_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="hextcounterdisplay_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="hextcounterdisplay_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="hextcounterdisplay_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="hextcounterdisplay_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="hextcounterdisplay_opt.dcp"/>
+  <File Type="OPT-DRC" Name="hextcounterdisplay_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="hextcounterdisplay.hwdef"/>
+  <File Type="PWROPT-DCP" Name="hextcounterdisplay_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="hextcounterdisplay_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="hextcounterdisplay_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="hextcounterdisplay_placed.dcp"/>
+  <File Type="PLACE-IO" Name="hextcounterdisplay_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="hextcounterdisplay_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="hextcounterdisplay_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="hextcounterdisplay_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="hextcounterdisplay_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="hextcounterdisplay_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="hextcounterdisplay_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="hextcounterdisplay.bin"/>
+  <File Type="PLACE-TIMING" Name="hextcounterdisplay_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="hextcounterdisplay_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="hextcounterdisplay.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="hextcounterdisplay_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="hextcounterdisplay_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="hextcounterdisplay_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="hextcounterdisplay.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="hextcounterdisplay_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="hextcounterdisplay_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="hextcounterdisplay_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="hextcounterdisplay_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="hextcounterdisplay_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="hextcounterdisplay_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="hextcounterdisplay_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="hextcounterdisplay_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="hextcounterdisplay_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="hextcounterdisplay_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="hextcounterdisplay_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="hextcounterdisplay_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="hextcounterdisplay_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="hextcounterdisplay_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="hextcounterdisplay_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="hextcounterdisplay_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="hextcounterdisplay_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="hextcounterdisplay_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="hextcounterdisplay_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="hextcounterdisplay_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="hextcounterdisplay_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="hextcounterdisplay_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="hextcounterdisplay_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="hextcounterdisplay_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="hextcounterdisplay_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="hextcounterdisplay_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="hextcounterdisplay_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="hextcounterdisplay.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="hextcounterdisplay_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="hextcounterdisplay_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="hextcounterdisplay.nky"/>
+  <File Type="BITSTR-BMM" Name="hextcounterdisplay_bd.bmm"/>
+  <File Type="PDI-FILE" Name="hextcounterdisplay.pdi"/>
+  <File Type="RCFI_FILE" Name="hextcounterdisplay.rcfi"/>
+  <File Type="CFI_FILE" Name="hextcounterdisplay.cfi"/>
+  <File Type="RNPI_FILE" Name="hextcounterdisplay.rnpi"/>
+  <File Type="NPI_FILE" Name="hextcounterdisplay.npi"/>
+  <File Type="RBD_FILE" Name="hextcounterdisplay.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="hextcounterdisplay.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="hextcounterdisplay.sysdef"/>
+  <File Type="BG-BGN" Name="hextcounterdisplay.bgn"/>
+  <File Type="BG-DRC" Name="hextcounterdisplay.drc"/>
+  <File Type="RDI-RDI" Name="hextcounterdisplay.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/counter1second.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hexto7seg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hextcounterdisplay.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dec7seg.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="hextcounterdisplay"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/switches_DDR.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/segdisplay_DDR.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/clock.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
